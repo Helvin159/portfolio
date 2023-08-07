@@ -23,7 +23,10 @@ function portfolio_post_types(){
       'all_items' => 'All Previous Works',
       'singular_name' => 'Previous Work',
     ),
-    'menu_icon' => 'dashicons-portfolio'
+    'menu_icon' => 'dashicons-portfolio',
+    'show_in_graphql' => true,
+        'graphql_single_name' => 'Work',
+        'graphql_plural_name' => 'Works',
   ));
     
     register_post_type('testimonial', array(
@@ -45,7 +48,10 @@ function portfolio_post_types(){
       'all_items' => 'All Testimonials',
       'singular_name' => 'Testimonial',
     ),
-    'menu_icon' => 'dashicons-thumbs-up'
+    'menu_icon' => 'dashicons-thumbs-up',
+    'show_in_graphql' => true,
+        'graphql_single_name' => 'Testimonial',
+        'graphql_plural_name' => 'Testimonials',
   ));
     
     register_post_type('services', array(
@@ -66,7 +72,10 @@ function portfolio_post_types(){
       'all_items' => 'All Services',
       'singular_name' => 'Service',
     ),
-    'menu_icon' => 'dashicons-performance'
+    'menu_icon' => 'dashicons-performance',
+    'show_in_graphql' => true,
+        'graphql_single_name' => 'Service',
+        'graphql_plural_name' => 'Services',
   ));
     
     register_post_type('clients', array(
@@ -87,7 +96,10 @@ function portfolio_post_types(){
       'all_items' => 'All Clients',
       'singular_name' => 'Client',
     ),
-    'menu_icon' => 'dashicons-groups'
+    'menu_icon' => 'dashicons-groups',
+    'show_in_graphql' => true,
+        'graphql_single_name' => 'Client',
+        'graphql_plural_name' => 'Clients',
   ));
     
     register_post_type('messages', array(
@@ -108,7 +120,10 @@ function portfolio_post_types(){
       'all_items' => 'All Messages',
       'singular_name' => 'Message',
     ),
-    'menu_icon' => 'dashicons-email-alt2'
+    'menu_icon' => 'dashicons-email-alt2',
+    'show_in_graphql' => true,
+        'graphql_single_name' => 'Message',
+        'graphql_plural_name' => 'Messages',
   ));
   
   
